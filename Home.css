@@ -1,0 +1,59 @@
+.Body1{
+ background-color: black;
+ color: white;
+}
+
+
+
+
+.img1{
+
+  margin: 10%;
+  margin-left: 30%;
+    width: 30%;
+   box-shadow:5px 1px 15px 5px ;
+   border-radius: 30%;
+}
+.img1:hover{
+    box-shadow: 5px 1px 15px 20px rgb(0, 136, 255);
+    transform:scale(1.1);
+    transition: 0.8s;
+}
+
+
+
+.con1{
+   
+    background-color: rgb(0, 136, 255) ;
+    padding-left: 15% ;
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-bottom: 14.5% ;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .Body1{
+    overflow: hidden;
+
+  }
+  .main {
+    padding-top: 50%;
+    padding-bottom: 20%;
+    
+  }
+
+  .con1 h1 {
+    font-size: 1.8rem;
+  }
+
+  .con1 p {
+    font-size: 1rem;
+  }
+
+  .img1 {
+    width: 150px;
+   
+  }
+}
